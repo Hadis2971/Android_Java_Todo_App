@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="app_title">Todo App</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log In</string>
+    <string name="register_first_name_field_hint">First Name</string>
+    <string name="register_last_name_field_hint">Last Name</string>
+    <string name="open_date_picker">Open Date Picker</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="wrong_credentials">Wrong Credentials</string>
+    <string name="add_todo_title">Add Todo Title</string>
+    <string name="add_todo_description">Add Todo Description</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="title_description_mandatory">The title and description are mandatory</string>
+    <string name="open_calendar">Open Calendar</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="critical">Critical</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="search_todos_title_description">Search todos by title or description</string>
+    <string name="expand">Expand</string>
+    <string name="collapse">Collapse</string>
+    <string name="update_todo">Update Todo</string>
+</resources>

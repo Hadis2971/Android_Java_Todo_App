@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/completed_filter"
+        android:icon="@drawable/baseline_check_circle_24"
+        android:title="@string/completed"
+        android:iconTint="@color/primaryColor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pending_filter"
+        android:icon="@drawable/baseline_pending_24"
+        android:title="@string/pending"
+        android:iconTint="@color/primaryColor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/low_priority_filter"
+        android:icon="@drawable/baseline_priority_low_24"
+        android:title="@string/low"
+        android:iconTint="@color/green"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/medium_priority_filter"
+        android:icon="@drawable/baseline_priority_medium_24"
+        android:title="@string/medium"
+        android:iconTint="@color/orange"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/high_priority_filter"
+        android:icon="@drawable/baseline_priority_high_24"
+        android:title="@string/high"
+        android:iconTint="@color/red"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/critical_priority_filter"
+        android:icon="@drawable/baseline_priority_critical_24"
+        android:title="@string/critical"
+        android:iconTint="@color/maroon"
+        app:showAsAction="never" />
+</menu>

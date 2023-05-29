@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/update_todo_title_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_todo_title" />
+
+    <EditText
+        android:id="@+id/update_todo_description_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_todo_description" />
+
+    <Button
+        android:id="@+id/update_todo_open_calendar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/open_calendar" />
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        -->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+</LinearLayout>
